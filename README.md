@@ -136,8 +136,8 @@ This repository contains solutions to a series of Kubernetes assignments. Each a
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/kubernetes-assignments.git
-   cd kubernetes-assignments
+   git clone https://github.com/Liquizar/Kubernetes_Assignments.git
+   cd Kubernetes_Assignments
    ```
 
 2. Navigate to the respective assignment folder and apply the Kubernetes manifests using `kubectl apply -f <filename>`.
