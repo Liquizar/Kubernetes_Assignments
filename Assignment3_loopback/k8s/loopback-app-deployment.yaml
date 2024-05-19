@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loopback-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loopback-app
+  template:
+    metadata:
+      labels:
+        app: loopback-app
+    spec:
+      containers:
+        - name: loopback-app
+          image: liquizar/loopback-app
+          ports:
+            - containerPort: 3000
